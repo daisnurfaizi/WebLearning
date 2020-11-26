@@ -1,0 +1,77 @@
+/* NAVBAR */
+  .navbar-brand {
+  font-family: Viga;
+  font-size: 30px;
+  color: #0f657b !important;
+  text-decoration: underline;
+}
+
+
+/* Untuk Tombol kalau mau dipake */
+ .tombol{
+  text-transform: uppercase;
+  border-radius: 50px;
+} 
+
+/* Jumbotron */
+  .jumbotron{
+    background-image: url(img/Back.png);
+    background-size: cover;
+    height: 758px ;
+  }
+
+  .jumbotron .display-4 {
+    color: #0f657b;
+    margin-top: 174px;
+  }
+
+  .lead{
+    margin-top: 40px;
+  } 
+
+  .btn{
+    border-radius: 100px;
+    margin-top: 30px;
+    text-shadow: rgba(0, 0, 0, 0.6);
+  }
+ 
+  /* My Modal */
+  .modal-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#0f657b ;
+  }
+
+  .modal-body{
+    text-align: center;
+  }
+
+  .tombol1{
+    border-radius: 50px;
+  }
+/* Buat Dekstop Version*/
+@media (min-width: 992px) { 
+   .nav-link{
+    margin-top: 30px;
+    color: white !important;
+    text-shadow: rgba(0, 0, 0, 0.6);
+  }
+  .nav-link{
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0f657b;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 4px;
+    margin-bottom: -7px;
+  }
+
+  .jumbotron{    
+    margin-top: -100px;
+  }
+}
