@@ -47,7 +47,9 @@
   }
 
   .tombol1{
-    border-radius: 50px;
+    /* ini yang gw tambah mar */
+    margin-bottom: 10px;
+    width: 100%;
   }
 /* Buat Dekstop Version*/
 @media (min-width: 992px) { 
