@@ -35,20 +35,7 @@
     text-shadow: rgba(0, 0, 0, 0.6);
   }
  
-  /* My Modal */
-  .modal-title{
-    text-transform: uppercase;
-    font-size: 30px;
-    color:#0f657b ;
-  }
 
-  .modal-body{
-    text-align: center;
-  }
-
-  .tombol1{
-    border-radius: 50px;
-  }
 /* Buat Dekstop Version*/
 @media (min-width: 992px) { 
    .nav-link{
@@ -74,4 +61,25 @@
   .jumbotron{    
     margin-top: -100px;
   }
+  /* My Modal */
+  .modal-title{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#0f657b ; 
+    margin-left: 155px; 
+  }
+
+  .modal-body{
+    text-align: center;
+  }
+  
+  .form-group{
+    text-align: left;
+  }
+
+  .tombol1{
+    margin-bottom: 10px;
+    width: 100%;  
+  }
+
 }
